@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>lsd</id>
+    <name>LSD trip</name>
+    <summary>💊🌈</summary>
+    <description>💊🌈 You took some pills and now there’s a party in your Nextcloud</description>
+    <licence>AGPL</licence>
+    <author mail="hey@jancborchardt.net" homepage="http://jancborchardt.net">Jan-Christoph Borchardt</author>
+    <version>1.0.0</version>
+    <types>
+		<authentication/>
+        <sessions/>
+	</types>
+    <namespace>LSD</namespace>
+    <category>customization</category>
+    <category>productivity</category>
+	<bugs>https://github.com/jancborchardt/lsd/issues</bugs>
+	<repository type="git">https://github.com/jancborchardt/lsd.git</repository>
+	<screenshot>https://raw.githubusercontent.com/jancborchardt/lsd/master/lsd.gif</screenshot>
+    <dependencies>
+        <nextcloud min-version="11" max-version="13"/>
+    </dependencies>
+</info>

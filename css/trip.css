@@ -1,0 +1,84 @@
+#body-login input.primary,
+#body-login button.primary,
+#body-login #alternative-logins li a {
+    background-color: rgba(0, 0, 0, .2) !important;
+}
+
+@keyframes lsdtrip {
+	0% {
+		background-color: hsl(201, 100%, 39%);
+	}
+	10% {
+		background-color: hsl(237, 100%, 39%);
+	}
+	20% {
+		background-color: hsl(273, 100%, 39%);
+	}
+	30% {
+		background-color: hsl(309, 100%, 39%);
+	}
+	40% {
+		background-color: hsl(345, 100%, 39%);
+	}
+	50% {
+		background-color: hsl(21, 100%, 39%);
+	}
+	60% {
+		background-color: hsl(57, 100%, 39%);
+	}
+	70% {
+		background-color: hsl(93, 100%, 39%);
+	}
+	80% {
+		background-color: hsl(129, 100%, 39%);
+	}
+	90% {
+		background-color: hsl(165, 100%, 39%);
+	}
+	100% {
+		background-color: hsl(201, 100%, 39%);
+	}
+}
+
+#body-login,
+#body-user #header,
+#body-settings #header,
+#body-public #header {
+	background-color: hsl(201, 100%, 39%);
+	animation: lsdtrip 2s linear infinite;
+}
+
+/* Based on tada animation from Animate.css https://github.com/daneden/animate.css */
+
+@keyframes tada {
+	from {
+		transform: scale3d(1, 1, 1);
+	}
+	10%, 20% {
+		transform: scale3d(.8, .8, .8) rotate3d(0, 0, 1, -4deg);
+	}
+	30%, 50%, 70%, 90% {
+		transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 4deg);
+	}
+	40%, 60%, 80% {
+		transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -4deg);
+	}
+	to {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.logo,
+#appmenu .active .app-icon,
+#appmenu li:hover .app-icon,
+#appmenu li:focus .app-icon,
+#more-apps:hover > a > div,
+#more-apps:focus > a > div,
+.notifications .notifications-button:hover,
+.notifications .notifications-button:focus,
+#contactsmenu .icon-contacts:hover,
+#contactsmenu .icon-contacts:focus,
+.avatardiv:hover,
+.avatardiv:focus {
+	animation: tada 1s linear infinite !important;
+}
